@@ -57,7 +57,6 @@
                 {
                     "type": "git",
                     "url": "https://github.com/jatinchowdhury18/AnalogTapeModel.git",
-                    "branch": "master",
                     "commit": "74764d9933f4f8075a27d81d835ab23bf1c53de8",
                     "x-checker-data": {
                         "type": "git",
