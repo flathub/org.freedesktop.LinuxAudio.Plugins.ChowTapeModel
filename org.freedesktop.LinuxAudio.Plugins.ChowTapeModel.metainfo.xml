@@ -3,11 +3,12 @@
   <id>org.freedesktop.LinuxAudio.Plugins.ChowTapeModel</id>
   <extends>org.freedesktop.LinuxAudio.BaseExtension</extends>
   <name>ChowTapeModel</name>
-  <summary>Physical modelling signal processing for analog tape recording, LV2/VST3 Plugin</summary>
+  <summary>Physical modelling signal processing for analog tape recording, LV2/CLAP/VST3 Plugin</summary>
   <url type="homepage">https://chowdsp.com/</url>
   <project_license>GPL-3.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <releases>
+    <release date="2022-07-14" version="2.11.0" />
     <release date="2021-12-05" version="2.10.0" />
     <release date="2021-09-09" version="2.9.0" />
   </releases>
