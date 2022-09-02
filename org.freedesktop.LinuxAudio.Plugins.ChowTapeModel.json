@@ -1,9 +1,9 @@
 {
     "id": "org.freedesktop.LinuxAudio.Plugins.ChowTapeModel",
-    "branch": "21.08",
+    "branch": "22.08",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
     "runtime-version": "stable",
-    "sdk": "org.freedesktop.Sdk//21.08",
+    "sdk": "org.freedesktop.Sdk//22.08",
     "build-extension": true,
     "appstream-compose": false,
     "build-options": {
@@ -62,6 +62,14 @@
                     "url": "https://github.com/jatinchowdhury18/AnalogTapeModel.git",
                     "tag": "v2.11.0",
                     "commit": "e411646b621b5351aeffd8eeca476a71f09f954d"
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/juce-616-header.patch",
+                    "options": [
+                        "-d",
+                        "Plugin/modules"
+                    ]
                 },
                 {
                     "type": "file",
