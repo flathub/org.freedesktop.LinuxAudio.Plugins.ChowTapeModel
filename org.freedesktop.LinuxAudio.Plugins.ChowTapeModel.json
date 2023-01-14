@@ -60,8 +60,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/jatinchowdhury18/AnalogTapeModel.git",
-                    "tag": "v2.11.0",
-                    "commit": "e411646b621b5351aeffd8eeca476a71f09f954d",
+                    "tag": "v2.11.1",
+                    "commit": "1c173a57a72351abb3bf6e1f55079679ef9c35db",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$",
